@@ -1,0 +1,9 @@
+enum ActionTypes {
+  SET_VALUE = "SET_VALUE",
+  SET_DEFAULT_VALUES = "SET_DEFAULT_VALUES",
+  VALIDATE = "VALIDATE",
+  SUBMIT = "SUBMIT",
+  RESET_SUBMIT_STATUS = "RESET_SUBMIT_STATUS",
+}
+
+export default ActionTypes;

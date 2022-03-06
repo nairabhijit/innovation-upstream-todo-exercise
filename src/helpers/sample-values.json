@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "abc.com SSL expiration",
+    "description": "abc.com SSL will expire on 15th Mar 2020",
+    "expiresOn": "2022-03-15T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 2,
+    "title": "prq.com domain expiration",
+    "description": "prq.com domain will expire on 15th Mar 2020",
+    "expiresOn": "2022-03-15T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 3,
+    "title": "xyz.com domain expiration",
+    "description": "xyz.com domain will expire on 30th Mar 2020",
+    "expiresOn": "2022-03-30T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 4,
+    "title": "SMTP credentials for efg.com",
+    "description": "SMTP credentials for efg.com will expire on 10 Apr 2022",
+    "expiresOn": "2022-04-10T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 5,
+    "title": "Contract with client 'client1'",
+    "description": "Contract with client 'client1' will expire on 10 Apr 2022",
+    "expiresOn": "2022-04-10T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 6,
+    "title": "'Test' app release",
+    "description": "A release of 'Test' app was promised to client on date 10 Apr 2022",
+    "expiresOn": "2022-04-10T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 7,
+    "title": "'Client3' agreement renewal",
+    "description": "'Client3' agreement renewal to be done on 10 Apr 2022",
+    "expiresOn": "2022-04-10T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 8,
+    "title": "'Client2' payment due",
+    "description": "The next payment of client 'client2' is due on 30 Apr 2022",
+    "expiresOn": "2022-04-30T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 9,
+    "title": "Demo with client 'Client5'",
+    "description": "We have a 'Test' app demo with the 'Client5' on 2nd May 2022",
+    "expiresOn": "2022-05-02T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 10,
+    "title": "Demo with client 'Client6'",
+    "description": "",
+    "expiresOn": "2022-05-02T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 11,
+    "title": "IAM user 'test1'",
+    "description": "Secret credentials of user 'test1' will expire on 10th Nov 2022",
+    "expiresOn": "2022-11-10T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 12,
+    "title": "ghi.com domain expiration",
+    "description": "ghi.com domain will expire on 11th Dec 2022",
+    "expiresOn": "2022-12-11T00:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 13,
+    "title": "Phase1 delivery of project 'Project1'",
+    "description": "Phase1 of project delivery will be on 10th Oct 2022",
+    "expiresOn": "2022-10-10:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 14,
+    "title": "Phase2 delivery of project 'Project2'",
+    "description": "Phase2 of project delivery will be on 11th Dec 2022",
+    "expiresOn": "2022-12-11:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  },
+  {
+    "id": 15,
+    "title": "Final completion of project 'Project3'",
+    "description": "Project3 will be completed by 12th Dec 2022",
+    "expiresOn": "2022-12-12:00:00.000Z",
+    "reminderDaysInAdvance": 15,
+    "reminderDaysInterval": 1
+  }
+]

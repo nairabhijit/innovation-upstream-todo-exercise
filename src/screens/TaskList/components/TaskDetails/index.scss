@@ -1,0 +1,35 @@
+@import "../../../../styles/theme.scss";
+
+.task-details {
+  $self: &;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: $primary-color;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+  &__title {
+    color: $primary-color;
+    font-weight: bold;
+  }
+  &__description {
+    color: $primary-color;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &--alert {
+    border-color: transparent;
+    #{$self}__title,
+    #{$self}__description {
+      color: #ffffff;
+    }
+  }
+  &--warning {
+    background-color: #f18944;
+  }
+  &--danger {
+    background-color: #a71f12;
+  }
+}

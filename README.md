@@ -1,10 +1,42 @@
-# Getting Started with Create React App
+# Innovation Upstream frontend exercise - Abhijit Nair
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Exercise
 
-## Available Scripts
+This a 'TODO' project interview exercise completed for the company Innovation Upstream
 
-In the project directory, you can run:
+The 'TODO' project is a very simple 'Reminder' system
+
+## About Project
+
+The companies providing web services and maintenance usually manage a large pool of websites and domains. The challenge is to maintain a list of SSL certificates and domains that will expire in the future in one place and send reminders as per the configuration.
+
+User can do below activities in the project
++ Add a new task
++ The task list is grouped by date & sort by the latest upcoming task
++ Can view details of the task by clicking on it
++ Can Update task details
++ Can delete task details
+
+The navigation bar only has two links, to add a task and to view the tasks being added. The navigation bar remains sticky on scroll.
+
+The task list is maintained in the localStorage so as to persist the data, also for the demonstration purpose.
+
+Visually it is being differentiated for the tasks that are about to expire(Orange Color) and tasks that are already expired(Red Color).
+
+For quick demonstration and convenience, the 'Load Sample Values' option has been given in the initial load, 'Clear All' option has also been given to clear all the tasks being added.
+
+## Improvements
+The app is very simple in nature, many things can be added, few of the features that come to my mind and are important are given below
++ Ability for the user to put a task in a group, for example, we can have a group named as 'SSL' and all the tasks of SSL will belong to SSL group, easy for organizing content
++ User can filter the task list by group
++ The task can have a history associated with it, for example, if an SSL certificate got expired, we can add a new one to the existing one and the old will be part of the history
++ User can view all the history for a particular SSL certificate, no need to delete or overwrite, useful in managing content.
++ Asking an 'email' in the task, the reminder will be sent on the given email. A default email can be setup by the user, so as to avoid giving the email all the time.
++ Date internationalization needs to be handled
+
+## Run Project
+
+In the current project directory, you can run:
 
 ### `npm start`
 
@@ -16,31 +48,17 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
+You can find the test cases in folder `screens>TaskForm>__test__` & `screens>TaskList>__test__`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## This project uses the below technology stack
++ reactjs for the frontend development
++ typescript for type safety
++ bootstrap for css utilities & components
++ react-testing-library for testing
++ BEM(Block Element Modifier) naming convention has been followed for CSS
++ scss for variables and BEM shortcuts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
+Abhijit Nair - nairabhijit6@gmail.com

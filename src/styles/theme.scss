@@ -1,0 +1,16 @@
+$primary-color: #3c5064;
+$danger: #d62518;
+
+// change the bootstrap theme colors
+$theme-colors: (
+  "primary": $primary-color,
+  // no change in bootstrap secondary color
+  "secondary": #6c757d,
+  "danger": $danger
+);
+
+.btn--fixed-width {
+  width: 100px;
+}
+
+@import "bootstrap";
